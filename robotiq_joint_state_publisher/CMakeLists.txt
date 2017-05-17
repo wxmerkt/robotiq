@@ -2,11 +2,12 @@ cmake_minimum_required(VERSION 2.8.3)
 project(robotiq_joint_state_publisher)
 
 ## Find catkin macros and libraries
-find_package(catkin REQUIRED
+find_package(catkin REQUIRED COMPONENTS
   roscpp
   roslib
   sensor_msgs
   robotiq_s_model_control
+  robotiq_s_model_articulated_msgs
   )
 
 ###################################
