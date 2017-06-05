@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(robotiq_force_torque_sensor)
 
+set(CMAKE_CXX_COMPILER "clang++-3.6")
+set(CMAKE_C_COMPILER "clang-3.6")
+
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
